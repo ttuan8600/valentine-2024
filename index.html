@@ -3,16 +3,20 @@
   <head>
     <link rel="stylesheet" href="./style/css/style.css" />
   </head>
+
   <body>
     <div class="container">
-      <h1 class="header_text">Điền vô đây</h1>
-    </div>
-    <div class="gif_container">
-        <img src="https://giphy.com/gifs/iQiyiOfficial-anime-spy-x-family-FwqI3YDzw7pQzsdBpD" alt="test" id="myGif"/>
-    </div>
-    <div class="buttons">
+      <div>
+        <h1 class="header_text">Điền vô đây</h1>
+      </div>
+
+      <div class="gif_container">
+          <img src="https://giphy.com/gifs/iQiyiOfficial-anime-spy-x-family-FwqI3YDzw7pQzsdBpD" alt="test">
+      </div>
+
+      <div class="buttons">
         <button class="btn" id="yesBtn" onclick="nextPage()">Có</button>
-        <button class="bt" id="noBtn" onmouseover="moveButton()">Không</button>
+        <button class="btn" id="noBtn" onmouseover="moveButton()">Không</button>
         <script>
             function nextPage(){
                 window.location.href="yes.html";
@@ -25,7 +29,7 @@
                 document.getElementById('noBtn').style.top = `${y}px`;
             }
         </script>
-    </div>
+      </div>
     </div>
   </body>
 </html>
