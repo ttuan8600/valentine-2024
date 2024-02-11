@@ -37,7 +37,8 @@ body {
     justify-content: center;
     align-items: center;
     margin-top: 20px;
-    margin-left: 20px;
+    margin-left: 50px;
+    
     /* optional: adds some space between the buttons */
 }
 
