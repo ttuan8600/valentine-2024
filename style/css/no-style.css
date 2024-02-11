@@ -10,7 +10,7 @@ body {
 
 #yesBtn {
     position: absolute;
-    margin-right: 0px;
+
     /* Smooth movement */
 }
 
@@ -30,11 +30,11 @@ body {
 
 .text {
     font-family: 'Nunito';
-    font-size: 25px;
+    font-size: 2vw;
     font-weight: bold;
     color: white;
     text-align: center;
-    margin-top: 20px;
+    margin-top: 2vh;
     margin-bottom: 0px;
 
     /* Add text shadow for thickness and dark pink lining */
