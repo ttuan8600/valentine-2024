@@ -5,19 +5,23 @@ body {
     height: 100vh;
     background-color: #F8C8DC;
     background-image: url('../images/1600w-XTPYrqTqYIE.webp');
+    background-size: cover;
 }
 
 /* Position the "No" button absolutely within body */
 #noBtn {
     position: absolute;
-    margin-left: 300px;
+    left: 10%;
+    bottom: 10%;
     transition: 0.5s;
     /* Smooth movement */
 }
 
 #yesBtn {
     position: absolute;
-    margin-right: 400px;
+    right: 10%;
+    bottom: 10%;
+    transition: 0.5s;
     /* Smooth movement */
 }
 
