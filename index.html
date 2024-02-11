@@ -21,9 +21,8 @@
           function nextPage(){
             window.location.href="yes.html";
           }
-          
+          let move = 0;
           function moveButton(){
-            let move = 0;
             if (move<5) { 
               var x = Math.random()*(window.innerWidth - document.getElementById('noBtn').offsetWidth);
               var y = Math.random()*(window.innerHeight - document.getElementById('noBtn').offsetHeight);
