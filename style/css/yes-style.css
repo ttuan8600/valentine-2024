@@ -1,0 +1,41 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #F8C8DC;
+    background-image: url('../images/1600w-XTPYrqTqYIE.webp');
+}
+
+.header_text{
+    font-family: 'Nunito';
+    font-size: 45px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 0px;
+
+    /* Add text shadow for thickness and dark pink lining */
+    text-shadow: 1px 0px 4px #ff6ebb;
+
+}
+.text {
+    font-family: 'Nunito';
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 0px;
+
+    /* Add text shadow for thickness and dark pink lining */
+    text-shadow: 1px 0px 4px #ff6ebb;
+}
+
+
+.gif_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
