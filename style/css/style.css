@@ -11,29 +11,36 @@ body {
 /* Position the "No" button absolutely within body */
 #noBtn {
     position: absolute;
-    left: 10%;
-    bottom: 10%;
+    margin-left: 70px;
     transition: 0.5s;
     /* Smooth movement */
 }
 
 #yesBtn {
     position: absolute;
-    right: 10%;
-    bottom: 10%;
+    margin-right: 70px;
     transition: 0.5s;
     /* Smooth movement */
 }
 
 .header_text {
-    font-family: 'Nunito';
+    /* font-family: 'Nunito';
     font-size: 50px;
     font-weight: bold;
-    /*color: #FFB6C1;*/
     color: orange;
     text-align: center;
     margin-top: 20px;
+    margin-bottom: 0px; */
+    font-family: 'Nunito';
+    font-size: 4vw;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    margin-top: 2vh;
     margin-bottom: 0px;
+
+    /* Add text shadow for thickness and dark pink lining */
+    text-shadow: 1px 0px 4px #ff6ebb;
 }
 
 .buttons {
