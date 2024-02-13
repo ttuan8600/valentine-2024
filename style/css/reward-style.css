@@ -80,3 +80,9 @@ body {
     height: auto;
     margin-bottom: 2vh;
 }
+
+@media only screen and (max-width: 600px) {
+    .image {
+        max-width: 80%;
+    }
+}
