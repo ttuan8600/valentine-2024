@@ -14,6 +14,28 @@
             </div>
             <p class = "text"> See you soon for a suprise!</p>
         </div>
-       
+        
+        <div class="buttons">
+            <button class="btn" id="yesBtn" onclick="nextPage()">Oke luôn babi <3 </button>
+            <button class="btn" id="noBtn" onclick="moveButton()">Éo, khum có cửa :)))))</button>
+            <script>
+              function nextPage(){
+                window.location.href="yes.html";
+              }
+              let move = 0;
+              function moveButton(){
+                if (move < 5) { 
+                  var x = Math.random()*(window.innerWidth - document.getElementById('noBtn').offsetWidth);
+                  var y = Math.random()*(window.innerHeight - document.getElementById('noBtn').offsetHeight);
+                  document.getElementById('noBtn').style.left= `${x}px`;
+                  document.getElementById('noBtn').style.top = `${y}px`;
+                  move++;
+                }
+                if (move > 4){
+                  window.location.href="no.html";
+                }
+              }
+            </script>
+          </div>
     </body> 
 </html>
