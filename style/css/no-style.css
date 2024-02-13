@@ -15,12 +15,12 @@ body {
 
 .header_text{
     font-family: 'Nunito';
-    font-size: 4vw;
+    font-size: 14vw;
     font-weight: bold;
     color: white;
     text-align: center;
     margin-top: 2vh;
-    margin-bottom: 0px;
+    margin-bottom: 2vh;
 
     /* Add text shadow for thickness and dark pink lining */
     text-shadow: 1px 0px 4px #ff6ebb;
@@ -29,7 +29,7 @@ body {
 
 .text {
     font-family: 'Nunito';
-    font-size: 2vw;
+    font-size: 12vw;
     font-weight: bold;
     color: white;
     text-align: center;
@@ -45,7 +45,7 @@ body {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    margin-top: 3vh;
+    margin-top: 5vh;
     margin-left: 2vw;
     /* optional: adds some space between the buttons */
 }
@@ -53,10 +53,10 @@ body {
 .btn {
     background-color: #FFB6C1;
     color: white;
-    padding: 1.5vh 3vw;
+    padding: 2vh 6vw;
     text-align: center;
     display: inline-block;
-    font-size: 1.6vw;
+    font-size: 6.6vw;
     margin: 4vh 2vw;
     cursor: pointer;
     border: none;

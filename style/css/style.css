@@ -11,14 +11,14 @@ body {
 /* Position the "No" button absolutely within body */
 #noBtn {
     position: absolute;
-    margin-left: 400px;
+    margin-left: 50vw;
     transition: 0.5s;
     /* Smooth movement */
 }
 
 #yesBtn {
     position: absolute;
-    margin-right: 400px;
+    margin-right: 50vw;
     transition: 0.5s;
     /* Smooth movement */
 }
@@ -32,7 +32,7 @@ body {
     margin-top: 20px;
     margin-bottom: 0px; */
     font-family: 'Nunito';
-    font-size: 4vw;
+    font-size: 8vw;
     font-weight: bold;
     color: white;
     text-align: center;
@@ -48,7 +48,7 @@ body {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    margin-top: 30px;
+    margin-top: 6vh;
     margin-left: 20px;
     gap: 20px;
     /* optional: adds some space between the buttons */
@@ -60,7 +60,7 @@ body {
     padding: 15px 32px;
     text-align: center;
     display: inline-block;
-    font-size: 16px;
+    font-size: 3.5vw;
     margin: 4px 2px;
     cursor: pointer;
     border: none;
