@@ -8,6 +8,11 @@ body {
     background-size: cover;
 }
 
+#yesBtn {
+    position: absolute;
+    /* Smooth movement */
+}
+
 .header_text{
     font-family: 'Nunito';
     font-size: 4vw;
@@ -39,4 +44,32 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3vh;
+    margin-left: 2vw;
+    /* optional: adds some space between the buttons */
+}
+
+.btn {
+    background-color: #FFB6C1;
+    color: white;
+    padding: 1.5vh 3vw;
+    text-align: center;
+    display: inline-block;
+    font-size: 1.6vw;
+    margin: 4vh 2vw;
+    cursor: pointer;
+    border: none;
+    border-radius: 12vw;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #FAF9F6;
 }
