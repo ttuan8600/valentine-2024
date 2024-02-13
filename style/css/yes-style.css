@@ -73,3 +73,53 @@ body {
 .btn:hover {
     background-color: #FAF9F6;
 }
+
+@media only screen and (max-width: 600px) {
+    .header_text{
+        font-family: 'Nunito';
+        font-size: 12vw;
+        font-weight: bold;
+        color: white;
+        text-align: center;
+        margin-top: 2vh;
+        margin-bottom: 0px;
+    
+        /* Add text shadow for thickness and dark pink lining */
+        text-shadow: 1px 0px 4px #ff6ebb;
+    
+    }
+    .text {
+        font-family: 'Nunito';
+        font-size: 10vw;
+        font-weight: bold;
+        color: white;
+        text-align: center;
+        margin-top: 2vh;
+        margin-bottom: 0px;
+    
+        /* Add text shadow for thickness and dark pink lining */
+        text-shadow: 1px 0px 4px #ff6ebb;
+    }
+    .buttons {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin-top: 10vh;
+        /* optional: adds some space between the buttons */
+    }
+    
+    .btn {
+        background-color: #FFB6C1;
+        color: white;
+        padding: 1.5vh 3vw;
+        text-align: center;
+        display: inline-block;
+        font-size: 6vw;
+        margin: 4vh 2vw;
+        cursor: pointer;
+        border: none;
+        border-radius: 12vw;
+        transition: background-color 0.3s ease;
+    }
+}
