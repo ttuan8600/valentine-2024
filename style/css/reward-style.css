@@ -29,7 +29,7 @@ body {
 
 .text {
     font-family: 'Nunito';
-    font-size: 2vw;
+    font-size: 20vw;
     font-weight: bold;
     color: white;
     text-align: center;
@@ -76,13 +76,13 @@ body {
 }
 
 .image{
-    max-width: 100%;  
+    max-width: 10%;  
     height: auto;
     margin-bottom: 2vh;
 }
 
 @media only screen and (max-width: 600px) {
     .image {
-        max-width: 5%;
+        max-width: 1%;
     }
 }
