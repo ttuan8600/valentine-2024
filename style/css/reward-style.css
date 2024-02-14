@@ -8,19 +8,14 @@ body {
     background-size: cover;
 }
 
-#yesBtn {
-    position: absolute;
-    /* Smooth movement */
-}
-
 .header_text{
     font-family: 'Nunito';
-    font-size: 10vw;
+    font-size: 14vw;
     font-weight: bold;
     color: white;
     text-align: center;
     margin-top: 2vh;
-    margin-bottom: 0px;
+    margin-bottom: 2vh;
 
     /* Add text shadow for thickness and dark pink lining */
     text-shadow: 1px 0px 4px #ff6ebb;
@@ -29,7 +24,7 @@ body {
 
 .text {
     font-family: 'Nunito';
-    font-size: 8vw;
+    font-size: 12vw;
     font-weight: bold;
     color: white;
     text-align: center;
@@ -40,28 +35,8 @@ body {
     text-shadow: 1px 0px 4px #ff6ebb;
 }
 
-.container{
-    margin-left: auto;
-    margin-right: auto;
-    align-items: center;
-
-}
-.img_container {
+.gif_container {
     display: flex;
     justify-content: center;
     align-items: center;
-    /* margin-left: 90vw; */
-}
-
-.image{
-    max-width: 100%;  
-    height: auto;
-    margin-bottom: 2vh;
-    display: inline-block;
-}
-
-@media only screen and (max-width: 600px) {
-    .image {
-        max-width: 1%;
-    }
 }
