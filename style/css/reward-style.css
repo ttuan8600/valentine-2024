@@ -18,7 +18,7 @@ body {
     margin-bottom: 2vh;
 
     /* Add text shadow for thickness and dark pink lining */
-    text-shadow: 5px 1px 8px #FF5C75;
+    text-shadow: 1px 0px 4px #ff6ebb;
 
 }
 
@@ -32,10 +32,10 @@ body {
     margin-bottom: 0px;
 
     /* Add text shadow for thickness and dark pink lining */
-    text-shadow: 5px 1px 8px #FF5C75;
+    text-shadow: 1px 0px 4px #ff6ebb;
 }
 
-.img_container {
+.gif_container {
     display: flex;
     justify-content: center;
     align-items: center;

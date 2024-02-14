@@ -34,7 +34,7 @@ body {
     margin-bottom: 0px;
 
     /* Add text shadow for thickness and dark pink lining */
-    text-shadow: 5px 1px 8px #FF5C75;
+    text-shadow: 1px 0px 4px #ff6ebb;
 
 }
 
@@ -48,7 +48,7 @@ body {
     margin-bottom: 0px;
 
     /* Add text shadow for thickness and dark pink lining */
-    text-shadow: 5px 1px 8px #FF5C75;
+    text-shadow: 1px 0px 4px #ff6ebb;
 }
 
 .buttons {
@@ -61,15 +61,15 @@ body {
 }
 
 .btn {
-    background-color: #FF5C75;
+    background-color: #FFB6C1;
     color: white;
-    padding: 2vh 6vw;
+    padding: 1.5vh 3vw;
     text-align: center;
     display: inline-block;
     font-size: 6vw;
     margin: 4vh 2vw;
     cursor: pointer;
     border: none;
-    border-radius: 5vw;
+    border-radius: 12vw;
     transition: background-color 0.3s ease;
 }
