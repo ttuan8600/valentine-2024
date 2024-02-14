@@ -40,7 +40,7 @@ body {
     margin-bottom: 0px;
 
     /* Add text shadow for thickness and dark pink lining */
-    text-shadow: 1px 0px 4px #ff6ebb;
+    text-shadow: 5px 1px 8px #FF5C75;
 }
 
 .buttons {
@@ -55,7 +55,7 @@ body {
 }
 
 .btn {
-    background-color: #FFB6C1;
+    background-color: #FF5C75;
     color: white;
     padding: 15px 32px;
     text-align: center;
