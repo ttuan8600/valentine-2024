@@ -4,8 +4,8 @@ body {
     align-items: center;
     height: 100vh;
     background-color: #F8C8DC;
-    background-image: url('../images/1600w-XTPYrqTqYIE.webp');
-    background-size: cover;
+    background-image: url('../images/new-bg.jpg');
+    background-size: fill;
 }
 
 .header_text{
@@ -24,7 +24,7 @@ body {
 
 .text {
     font-family: 'Nunito';
-    font-size: 12vw;
+    font-size: 8vw;
     font-weight: bold;
     color: white;
     text-align: center;
