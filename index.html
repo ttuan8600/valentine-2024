@@ -9,34 +9,20 @@
       <div>
         <h1 class="header_text">
           <p>
-              Làm tình nhân của anh vào
-              <br>Valungtung này nha
+              Chúc Mừng Sinh Nhật Em Yêu
           </p>
         </h1>      
       </div>
 
       <div class="gif_container">
-        <img src="./style/images/output-onlinegiftools.gif" alt="cute cat gif"/>
+        <img src="./style/images/kis.gif" alt="cute cat gif"/>
       </div>
 
       <div class="buttons">
-        <button class="btn" id="yesBtn" onclick="nextPage()">Oke luôn babi <3 </button>
-        <button class="btn" id="noBtn" onclick="resizeBtn()">Éo, khum có cửa :)))))</button>
+        <button class="btn" id="yesBtn" onclick="nextPage()">Xoay Thưởng <3 </button>
         <script>
           function nextPage(){
             window.location.href="yes.html";
-          }
-          let count = 0;
-          function resizeBtn(){
-            var button = document.getElementById('yesBtn');
-            var currentSize = parseFloat(window.getComputedStyle(button, null).getPropertyValue('font-size'));
-            if (count < 8) { 
-              button.style.fontSize = (currentSize + 10) + 'px';
-              count++;
-            }
-            if (count > 7){
-              window.location.href="no.html";
-            }
           }
         </script>
       </div>
